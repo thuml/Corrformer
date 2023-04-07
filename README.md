@@ -46,7 +46,7 @@ Note: Since the raw data for Global Temp and Global Wind from the NCEI has been 
 For a simple demo, we would recommend the experiments with the pre-trained models, which can provide a fast test of our code. Here are the detailed instructions:
 
 1. Configure the environment with the above instructions. Note that the following experiments will take 4GB GPU memory.
-2. Download the datasets and pretrained models from [[Tsinghua Cloud]](https://cloud.tsinghua.edu.cn/d/f5b13a194255457c9460/). Place the pretrained models under the `./checkpoints` folder.
+2. Download the datasets and pretrained models from [[Datasets]](https://cloud.tsinghua.edu.cn/d/f5b13a194255457c9460/) and [[Pretrained Models]](https://cloud.tsinghua.edu.cn/d/5986f3be94ff4f1c97e5/). Place the pretrained models under the `./checkpoints` folder.
 3. Execute the demo with the following scripts.
 
 ```bash
