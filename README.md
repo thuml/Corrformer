@@ -39,7 +39,9 @@ bash ./scripts/Global_Temp/Corrformer.sh # take about 18 hours
 bash ./scripts/Global_Wind/Corrformer.sh # take about 18 hours
 ```
 
-Note: Since the raw data for Global Temp and Global Wind from the NCEI has been multiplied by ten times, the actual MSE and MAE for these two benchmarks should be divided by 100 and 10 respectively.
+Note: Since the raw data for Global Temp and Global Wind from the NCEI has been multiplied by ten times, the actual MSE and MAE for these two benchmarks should be divided by 100 and 10 respectively. 
+
+Other datasets are available from the authors upon reasonable request and with permission of the CMA. Please email the authors this [form](https://cloud.tsinghua.edu.cn/f/6a2d040ba65846feab91/) for access.
 
 ## Demo
 
