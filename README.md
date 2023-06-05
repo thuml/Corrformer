@@ -1,4 +1,4 @@
-# Corrformer
+# Corrformer (Nature Machine Intelligence)
 
 Corrformer with the Multi-Correlation mechanism, which can unify the temporal auto-correlation and spatial correlation in a learned multiscale tree structure.
 
@@ -57,3 +57,20 @@ bash ./scripts/Demo/Global_Wind_demo.sh # take about 35 minutes
 ```
 
 Note again: Since the raw data for Global Temp and Global Wind from the NCEI has been multiplied by ten times, **the actual MSE and MAE for these two benchmarks should be divided by 100 and 10 respectively**.
+
+## Citation
+
+If you find this repo useful, please cite our paper.
+
+```
+@article{wu2023corrformer,
+  title={Interpretable Weather Forecasting for Worldwide Stations with a Unified Deep Model},
+  author={Haixu Wu and Hang Zhou and Mingsheng Long and Jianmin Wang},
+  journal={Nature Machine Intelligence},
+  year={2023},
+}
+```
+
+## Contact
+If you have any questions or suggestions, feel free to contact Haixu Wu (whx20@mails.tsinghua.edu.cn).
+
