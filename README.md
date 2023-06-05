@@ -4,7 +4,7 @@ In this [paper](https://www.nature.com/articles/s42256-023-00667-9), we present 
 
 - Corrformer reduces the canonical double quadratic complexity of spatiotemporal modeling to linear in spatial modeling and log-linear in temporal modeling, **firstly achieving collaborative forecasts for tens of thousands of stations within a unified deep model**.
 - Corrformer can generate interpretable predictions based on inferred propagation directions of weather processes, **facilitating a fully data-driven AI paradigm for discovering insights for meteorological science**.
-- Corrformer yields **state-of-the-art forecasts on global, regional and citywide datasets** with high confidence, beating classical statistical methods, latest deep models, and comparing favorably to numerical methods in fine-grained short-term near-surface forecasting.
+- Corrformer yields **state-of-the-art forecasts on global, regional and citywide datasets** with high confidence, beating classical statistical methods, latest deep models, and comparing favorably to numerical methods in near-surface forecasting.
 
 ## Code Structure
 
