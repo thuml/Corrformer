@@ -232,8 +232,8 @@ class Exp_Main(Exp_Basic):
                 batch_num += 1
                 # visual
                 input = batch_x.detach().cpu().numpy()
-                gt = np.concatenate((input[0, :, 0], true[0, :, 0]), axis=0)
-                pd = np.concatenate((input[0, :, 0], pred[0, :, 0]), axis=0)
+                gt = np.concatenate((input[0, :, 100], true[0, :, 100]), axis=0)
+                pd = np.concatenate((input[0, :, 100], pred[0, :, 100]), axis=0)
                 visual(gt, pd, os.path.join(folder_path, str(i) + '.pdf'))
                 if i % 10 == 0:
                     print("batch: " + str(i))
