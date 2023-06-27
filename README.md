@@ -6,6 +6,9 @@ In this [paper](https://www.nature.com/articles/s42256-023-00667-9), we present 
 - Corrformer can generate interpretable predictions based on inferred propagation directions of weather processes, **facilitating a fully data-driven AI paradigm for discovering insights for meteorological science**.
 - Corrformer yields **state-of-the-art forecasts on global, regional and citywide datasets** with high confidence, beating classical statistical methods, latest deep models, and comparing favorably to numerical methods in near-surface forecasting.
 
+:triangular_flag_on_post:**News** (2023.06) Our paper has been published in Nature Machine Intelligence as the [Cover Article](https://www.nature.com/natmachintell/volumes/5/issues/6).
+
+
 ## Code Structure
 
 ```python
