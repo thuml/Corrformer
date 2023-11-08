@@ -77,5 +77,5 @@ If you find this repo useful, please cite our paper.
 ```
 
 ## Contact
-If you have any questions or suggestions, feel free to contact Haixu Wu (wuhaixu98@gmail.com).
+If you have any questions or suggestions, feel free to contact Haixu Wu (wuhaixu98@gmail.com or wuhx23@mails.tsinghua.edu.cn).
 
