@@ -140,6 +140,7 @@ if args.is_training:
 
         torch.cuda.empty_cache()
 else:
+    exp = Exp(args)  # set experiments
     ii = 0
     setting = '{}_{}_{}_ft{}_sl{}_ll{}_pl{}_node{}_node{}_bs{}_dm{}_nh{}_el{}_dl{}_df{}_fc{}_fct{}_fcs{}_eb{}_dt{}_{}_{}'.format(
         args.model_id,
@@ -164,7 +165,6 @@ else:
         args.distil,
         args.des, ii)
 
-    exp = Exp(args)  # set experiments
     print('>>>>>>>testing : {}<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'.format(setting))
     exp.test(setting, test=1)
     torch.cuda.empty_cache()
